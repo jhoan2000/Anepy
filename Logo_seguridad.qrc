@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="Logo pass">
+    <file>logo_seguridad.png</file>
+  </qresource>
+</RCC>

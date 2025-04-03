@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SplashScreen</class>
+ <widget class="QMainWindow" name="SplashScreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>677</width>
+    <height>402</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QFrame" name="dropShadowFrame">
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+	
+	color: rgb(220, 220, 220);
+	background-color: #046B99;
+	border-radius: 10px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label_titulo">
+       <property name="geometry">
+        <rect>
+         <x>2</x>
+         <y>61</y>
+         <width>657</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>40</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>&lt;strong&gt;ANEPY&lt;/strong&gt; APP</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_descripcion">
+       <property name="geometry">
+        <rect>
+         <x>2</x>
+         <y>139</y>
+         <width>657</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(200, 200, 200);</string>
+       </property>
+       <property name="text">
+        <string>&lt;strong&gt;APP&lt;/strong&gt; DESCRIPTION</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QProgressBar" name="progressBar">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>297</y>
+         <width>494</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QProgressBar{
+	
+	background-color: rgb(10, 158, 133);
+	color: rgb(200, 200, 200);
+	border-style:none;
+	border-radius:10px;
+	text-align:center;
+}
+QProgressBar::chunk{
+	border-radius:10px;
+	
+	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.523, x2:1, y2:0.528, stop:0.0113636 rgba(27, 150, 226, 255), stop:1 rgba(52, 208, 104, 255));
+}
+</string>
+       </property>
+       <property name="value">
+        <number>70</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_loading">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>321</y>
+         <width>661</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;loading...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_creditos">
+       <property name="geometry">
+        <rect>
+         <x>1</x>
+         <y>359</y>
+         <width>656</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Creado por:&lt;/span&gt; J&amp;amp;Y&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

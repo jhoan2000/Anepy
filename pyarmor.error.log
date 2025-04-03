@@ -1,0 +1,21 @@
+14868 MainProcess 2023-04-11 23:05:51,415
+Traceback (most recent call last):
+  File "C:\Users\Estudiante\anaconda3\lib\site-packages\pyarmor\cli\__main__.py", line 627, in main
+    main_entry(sys.argv[1:])
+  File "C:\Users\Estudiante\anaconda3\lib\site-packages\pyarmor\cli\__main__.py", line 615, in main_entry
+    args.func(ctx, args)
+  File "C:\Users\Estudiante\anaconda3\lib\site-packages\pyarmor\cli\__main__.py", line 179, in cmd_gen
+    builder.process(options, pack=args.pack)
+  File "C:\Users\Estudiante\anaconda3\lib\site-packages\pyarmor\cli\generate.py", line 155, in process
+    self._obfuscate_scripts()
+  File "C:\Users\Estudiante\anaconda3\lib\site-packages\pyarmor\cli\generate.py", line 120, in _obfuscate_scripts
+    code = Pytransform3.generate_obfuscated_script(self.ctx, r)
+  File "C:\Users\Estudiante\anaconda3\lib\site-packages\pyarmor\cli\core\__init__.py", line 48, in generate_obfuscated_script
+    return m.generate_obfuscated_script(ctx, res)
+  File "<maker>", line 761, in generate_obfuscated_script
+  File "C:\Users\Estudiante\anaconda3\lib\site-packages\pyarmor\cli\__init__.py", line 12, in process
+    return meth(self, res, *args, **kwargs)
+  File "<maker>", line 532, in process
+  File "<maker>", line 538, in coserialize
+  File "<maker>", line 608, in _build_ast_body
+RuntimeError: out of license

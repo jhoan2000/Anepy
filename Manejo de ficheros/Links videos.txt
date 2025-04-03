@@ -1,0 +1,5 @@
+https://www.youtube.com/watch?v=GkgMTyiLtWk # Ventanas emergentes
+https://www.youtube.com/watch?v=-LA6TmO0Vo8 # Explorador de archivos
+https://www.youtube.com/watch?v=823ProFM4us # Accesos directos
+https://www.youtube.com/watch?v=2-gZKRD4CYs # Ventana flotante
+https://www.pythonguis.com/tutorials/packaging-pyqt5-pyside2-applications-windows-pyinstaller/ # Crear instalador

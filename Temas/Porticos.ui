@@ -1,0 +1,2349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Porticos</class>
+ <widget class="QMainWindow" name="Porticos">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1339</width>
+    <height>713</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ANEPY</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>imagenes/LOGO/Sin título-1.jpg</normaloff>imagenes/LOGO/Sin título-1.jpg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>30</width>
+    <height>20</height>
+   </size>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="bar_cb_pg">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>34</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/**background-color: rgb(213, 244, 230);**/
+background-color: rgb(61, 168, 240);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label_archivo">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>0</y>
+         <width>361</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: None;
+	color: rgb(97, 134, 133);
+/*Letra*/
+	font: 10pt &quot;Arial&quot;;
+	
+}</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;Archivo: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_abrir">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>0</y>
+         <width>32</width>
+         <height>34</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+/* Color de fondo*/
+background-color: rgb(213, 244, 230);
+
+font: 75 12pt &quot;Bell MT&quot;;
+border-radius : 5px;
+border : 2px solid  rgb(240, 240, 240);
+
+}
+
+/* Cambia color al estar sobre*/
+QPushButton:hover{
+
+background-color:rgb(120, 165, 164);
+border : 2px solid  rgb(0, 255, 255);
+
+}
+/* Cambia color al dar click*/
+QPushButton:pressed{
+
+background-color:rgb(173, 238, 236);
+border : 2px solid  rgb(0, 179, 179);
+
+}
+
+
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>iconos/Abrir.ico</normaloff>iconos/Abrir.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_guardar">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>0</y>
+         <width>32</width>
+         <height>34</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+/* Color de fondo*/
+background-color: rgb(213, 244, 230);
+
+font: 75 12pt &quot;Bell MT&quot;;
+border-radius : 5px;
+border : 2px solid  rgb(240, 240, 240);
+
+}
+
+/* Cambia color al estar sobre*/
+QPushButton:hover{
+
+background-color:rgb(120, 165, 164);
+border : 2px solid  rgb(0, 255, 255);
+
+}
+/* Cambia color al dar click*/
+QPushButton:pressed{
+
+background-color:rgb(173, 238, 236);
+border : 2px solid  rgb(0, 179, 179);
+
+}
+
+
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>iconos/Guardar.ico</normaloff>iconos/Guardar.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>22</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_inicio">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>0</y>
+         <width>32</width>
+         <height>34</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+/* Color de fondo*/
+background-color: rgb(213, 244, 230);
+
+font: 75 12pt &quot;Bell MT&quot;;
+border-radius : 5px;
+border : 2px solid  rgb(240, 240, 240);
+
+}
+
+/* Cambia color al estar sobre*/
+QPushButton:hover{
+
+background-color:rgb(120, 165, 164);
+border : 2px solid  rgb(0, 255, 255);
+
+}
+/* Cambia color al dar click*/
+QPushButton:pressed{
+
+background-color:rgb(173, 238, 236);
+border : 2px solid  rgb(0, 179, 179);
+
+}
+
+
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>iconos/Inicio.ico</normaloff>iconos/Inicio.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>24</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_matrices">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>0</y>
+         <width>32</width>
+         <height>34</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+/* Color de fondo*/
+background-color: rgb(213, 244, 230);
+
+font: 75 12pt &quot;Bell MT&quot;;
+border-radius : 5px;
+border : 2px solid  rgb(240, 240, 240);
+
+}
+
+/* Cambia color al estar sobre*/
+QPushButton:hover{
+
+background-color:rgb(120, 165, 164);
+border : 2px solid  rgb(0, 255, 255);
+
+}
+/* Cambia color al dar click*/
+QPushButton:pressed{
+
+background-color:rgb(173, 238, 236);
+border : 2px solid  rgb(0, 179, 179);
+
+}
+
+
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>iconos/K_n.ico</normaloff>iconos/K_n.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_exportar">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>0</y>
+         <width>32</width>
+         <height>34</height>
+        </rect>
+       </property>
+       <property name="mouseTracking">
+        <bool>true</bool>
+       </property>
+       <property name="accessibleName">
+        <string extracomment="Exportar a Excel"/>
+       </property>
+       <property name="accessibleDescription">
+        <string/>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+/* Color de fondo*/
+background-color: rgb(213, 244, 230);
+
+font: 75 12pt &quot;Bell MT&quot;;
+border-radius : 5px;
+border : 2px solid  rgb(240, 240, 240);
+
+}
+
+/* Cambia color al estar sobre*/
+QPushButton:hover{
+
+background-color:rgb(120, 165, 164);
+border : 2px solid  rgb(0, 255, 255);
+
+}
+/* Cambia color al dar click*/
+QPushButton:pressed{
+
+background-color:rgb(173, 238, 236);
+border : 2px solid  rgb(0, 179, 179);
+
+}
+
+
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>iconos/E_X.ico</normaloff>iconos/E_X.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>false</bool>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_esfuerzos">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>0</y>
+         <width>32</width>
+         <height>34</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+/* Color de fondo*/
+background-color: rgb(213, 244, 230);
+
+font: 75 12pt &quot;Bell MT&quot;;
+border-radius : 5px;
+border : 2px solid  rgb(240, 240, 240);
+
+}
+
+/* Cambia color al estar sobre*/
+QPushButton:hover{
+
+background-color:rgb(120, 165, 164);
+border : 2px solid  rgb(0, 255, 255);
+
+}
+/* Cambia color al dar click*/
+QPushButton:pressed{
+
+background-color:rgb(173, 238, 236);
+border : 2px solid  rgb(0, 179, 179);
+
+}
+
+
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>iconos/Esfuerzos_int.ico</normaloff>iconos/Esfuerzos_int.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_deformada">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>0</y>
+         <width>32</width>
+         <height>34</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+/* Color de fondo*/
+background-color: rgb(213, 244, 230);
+
+font: 75 12pt &quot;Bell MT&quot;;
+border-radius : 5px;
+border : 2px solid  rgb(240, 240, 240);
+
+}
+
+/* Cambia color al estar sobre*/
+QPushButton:hover{
+
+background-color:rgb(120, 165, 164);
+border : 2px solid  rgb(0, 255, 255);
+
+}
+/* Cambia color al dar click*/
+QPushButton:pressed{
+
+background-color:rgb(173, 238, 236);
+border : 2px solid  rgb(0, 179, 179);
+
+}
+
+
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>iconos/Deformada.ico</normaloff>iconos/Deformada.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_nuevo">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>32</width>
+         <height>34</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+/* Color de fondo*/
+background-color: rgb(213, 244, 230);
+
+font: 75 12pt &quot;Bell MT&quot;;
+border-radius : 5px;
+border : 2px solid  rgb(240, 240, 240);
+
+}
+
+/* Cambia color al estar sobre*/
+QPushButton:hover{
+
+background-color:rgb(120, 165, 164);
+border : 2px solid  rgb(0, 255, 255);
+
+}
+/* Cambia color al dar click*/
+QPushButton:pressed{
+
+background-color:rgb(173, 238, 236);
+border : 2px solid  rgb(0, 179, 179);
+
+}
+
+
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../Desktop/descarga.png</normaloff>../../../Desktop/descarga.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="cb_paginas">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/**background-color: rgb(128, 206, 214);**/
+background-color: rgb(28, 79, 112);
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QStackedWidget" name="stackedWidget">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>9</x>
+         <y>-1</y>
+         <width>1501</width>
+         <height>761</height>
+        </rect>
+       </property>
+       <widget class="QWidget" name="pagina_1">
+        <widget class="QGroupBox" name="groupBox">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>10</y>
+           <width>1341</width>
+           <height>631</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QGroupBox{
+/*Borde*/
+border: 2px solid rgb(255, 255, 255);
+border-radius: 5px;
+
+	/*Letra*/
+	font: 15pt &quot;Impact&quot;;
+	color: rgb(106, 106, 106);
+}</string>
+         </property>
+         <property name="title">
+          <string>Datos</string>
+         </property>
+         <widget class="QTableWidget" name="tbl_Elem">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>60</y>
+            <width>461</width>
+            <height>141</height>
+           </rect>
+          </property>
+          <property name="cursor" stdset="0">
+           <cursorShape>ArrowCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QTableWidget{
+background-color: rgb(255, 255, 255);
+border-radius : 5px
+}
+QHeaderView::section{
+border-radius : 5px
+font: 75 11pt &quot;Times New Roman&quot;;
+}
+</string>
+          </property>
+          <property name="autoScroll">
+           <bool>true</bool>
+          </property>
+          <property name="showGrid">
+           <bool>true</bool>
+          </property>
+          <property name="gridStyle">
+           <enum>Qt::SolidLine</enum>
+          </property>
+          <property name="sortingEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="rowCount">
+           <number>0</number>
+          </property>
+          <attribute name="horizontalHeaderVisible">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="horizontalHeaderCascadingSectionResizes">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="horizontalHeaderMinimumSectionSize">
+           <number>42</number>
+          </attribute>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>77</number>
+          </attribute>
+          <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderCascadingSectionResizes">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderMinimumSectionSize">
+           <number>30</number>
+          </attribute>
+          <attribute name="verticalHeaderDefaultSectionSize">
+           <number>30</number>
+          </attribute>
+          <attribute name="verticalHeaderHighlightSections">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderStretchLastSection">
+           <bool>false</bool>
+          </attribute>
+          <column>
+           <property name="text">
+            <string>Elemento</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Nodo inicial</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Nodo final</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Base</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Altura</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Mod E</string>
+           </property>
+          </column>
+         </widget>
+         <widget class="QSpinBox" name="sp_nElem">
+          <property name="geometry">
+           <rect>
+            <x>220</x>
+            <y>30</y>
+            <width>68</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+QSpinBox{
+
+/* Color de fondo*/
+background-color: rgb(255, 255, 255); 
+
+/* borde*/
+border-radius : 5px;
+border : 2px solid  rgb(240, 240, 240);
+
+/* Color de letras*/
+	color: rgb(1, 1, 1);
+
+	font: 10pt &quot;Times New Roman&quot;;
+}
+
+
+QComboBox:hover{
+
+
+border : 2px solid rgb(254, 251, 216);
+
+}
+
+</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QTableWidget" name="tbl_Nod">
+          <property name="geometry">
+           <rect>
+            <x>490</x>
+            <y>60</y>
+            <width>231</width>
+            <height>144</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QTableWidget{
+background-color: rgb(255, 255, 255);
+border-radius : 5px
+}
+QHeaderView::section{
+border-radius : 5px
+font: 75 11pt &quot;Times New Roman&quot;;
+}
+</string>
+          </property>
+          <property name="rowCount">
+           <number>0</number>
+          </property>
+          <attribute name="horizontalHeaderMinimumSectionSize">
+           <number>42</number>
+          </attribute>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>75</number>
+          </attribute>
+          <attribute name="verticalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <column>
+           <property name="text">
+            <string>Nodo</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Coord. x</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Coorrd. y</string>
+           </property>
+          </column>
+         </widget>
+         <widget class="QSpinBox" name="sp_nNo">
+          <property name="geometry">
+           <rect>
+            <x>650</x>
+            <y>30</y>
+            <width>68</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+QSpinBox{
+
+/* Color de fondo*/
+background-color: rgb(255, 255, 255); 
+
+/* borde*/
+border-radius : 5px;
+border : 2px solid  rgb(240, 240, 240);
+
+/* Color de letras*/
+	color: rgb(1, 1, 1);
+
+	font: 10pt &quot;Times New Roman&quot;;
+}
+
+
+QComboBox:hover{
+
+
+border : 2px solid rgb(254, 251, 216);
+
+}
+
+</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QSpinBox" name="sp_nFuer">
+          <property name="geometry">
+           <rect>
+            <x>920</x>
+            <y>30</y>
+            <width>68</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+QSpinBox{
+
+/* Color de fondo*/
+background-color: rgb(255, 255, 255); 
+
+/* borde*/
+border-radius : 5px;
+border : 2px solid  rgb(240, 240, 240);
+
+/* Color de letras*/
+	color: rgb(1, 1, 1);
+
+	font: 10pt &quot;Times New Roman&quot;;
+}
+
+
+QComboBox:hover{
+
+
+border : 2px solid rgb(254, 251, 216);
+
+}
+
+</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QTableWidget" name="tbl_Fuer">
+          <property name="geometry">
+           <rect>
+            <x>730</x>
+            <y>60</y>
+            <width>311</width>
+            <height>144</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QTableWidget{
+background-color: rgb(255, 255, 255);
+border-radius : 5px
+}
+QHeaderView::section{
+border-radius : 5px
+font: 75 11pt &quot;Times New Roman&quot;;
+}
+</string>
+          </property>
+          <property name="rowCount">
+           <number>0</number>
+          </property>
+          <attribute name="horizontalHeaderMinimumSectionSize">
+           <number>42</number>
+          </attribute>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>75</number>
+          </attribute>
+          <attribute name="verticalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <column>
+           <property name="text">
+            <string>Nodo</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Fx</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Fy</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Mz</string>
+           </property>
+          </column>
+         </widget>
+         <widget class="MatplotlibWidgetaLienzo" name="wgt_Rest" native="true">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>440</y>
+            <width>331</width>
+            <height>141</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+border-radius : 5px</string>
+          </property>
+         </widget>
+         <widget class="MatplotlibWidgetaLienzo" name="wgt_porticos" native="true">
+          <property name="geometry">
+           <rect>
+            <x>380</x>
+            <y>240</y>
+            <width>941</width>
+            <height>371</height>
+           </rect>
+          </property>
+          <property name="cursor">
+           <cursorShape>ArrowCursor</cursorShape>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">/* color de fondo*/
+background-color: rgb(255, 255, 255);
+/*borde redondo*/
+border-radius : 10px;
+/* linea de borde*/
+border : 2px solid rgb(205, 205, 205);</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_4">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>230</y>
+            <width>221</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+background-color: None;
+	color: rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Cantidad de Restricciones:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+         <widget class="QTableWidget" name="tbl_Rest">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>260</y>
+            <width>337</width>
+            <height>141</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QTableWidget{
+background-color: rgb(255, 255, 255);
+border-radius : 5px
+}
+QHeaderView::section{
+border-radius : 5px
+font: 75 11pt &quot;Times New Roman&quot;;
+}
+</string>
+          </property>
+          <property name="rowCount">
+           <number>0</number>
+          </property>
+          <attribute name="horizontalHeaderMinimumSectionSize">
+           <number>42</number>
+          </attribute>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>110</number>
+          </attribute>
+          <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderCascadingSectionResizes">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderDefaultSectionSize">
+           <number>30</number>
+          </attribute>
+          <attribute name="verticalHeaderHighlightSections">
+           <bool>true</bool>
+          </attribute>
+          <column>
+           <property name="text">
+            <string>Tipo</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Nodo</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Can. Restriciones</string>
+           </property>
+          </column>
+         </widget>
+         <widget class="QSpinBox" name="sp_nRest">
+          <property name="geometry">
+           <rect>
+            <x>250</x>
+            <y>230</y>
+            <width>68</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+QSpinBox{
+
+/* Color de fondo*/
+background-color: rgb(255, 255, 255); 
+
+/* borde*/
+border-radius : 5px;
+border : 2px solid  rgb(240, 240, 240);
+
+/* Color de letras*/
+	color: rgb(1, 1, 1);
+
+	font: 10pt &quot;Times New Roman&quot;;
+}
+
+
+QComboBox:hover{
+
+
+border : 2px solid rgb(254, 251, 216);
+
+}
+
+</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_5">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>410</y>
+            <width>191</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+background-color: None;
+	color: rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Tipos de apoyos:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="btn_visualizar">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>590</y>
+            <width>144</width>
+            <height>34</height>
+           </rect>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+/* Color de fondo*/
+background-color: rgb(97, 134, 133);
+
+font: 75 14pt &quot;Bell MT&quot;;
+border-radius : 5px;
+border : 2px solid  rgb(240, 240, 240);
+
+}
+
+/* Cambia color al estar sobre*/
+QPushButton:hover{
+
+background-color:rgb(120, 165, 164);
+border : 2px solid  rgb(0, 255, 255);
+
+}
+/* Cambia color al dar click*/
+QPushButton:pressed{
+
+background-color:rgb(173, 238, 236);
+border : 2px solid  rgb(0, 179, 179);
+
+}
+
+</string>
+          </property>
+          <property name="text">
+           <string>Visualizar</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_6">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>30</y>
+            <width>191</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+background-color: None;
+	color: rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Cantidad de elementos:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_7">
+          <property name="geometry">
+           <rect>
+            <x>490</x>
+            <y>30</y>
+            <width>161</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+background-color: None;
+	color: rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Cantidad de nodos:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_8">
+          <property name="geometry">
+           <rect>
+            <x>730</x>
+            <y>30</y>
+            <width>171</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+background-color: None;
+	color: rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Cantidad de fuerzas:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+         <widget class="QTableWidget" name="tbl_Fuer_W">
+          <property name="geometry">
+           <rect>
+            <x>1060</x>
+            <y>60</y>
+            <width>256</width>
+            <height>141</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QTableWidget{
+background-color: rgb(255, 255, 255);
+border-radius : 5px
+}
+QHeaderView::section{
+border-radius : 5px
+font: 75 11pt &quot;Times New Roman&quot;;
+}
+</string>
+          </property>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>80</number>
+          </attribute>
+          <column>
+           <property name="text">
+            <string>Elemento</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>W i</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>W f</string>
+           </property>
+          </column>
+         </widget>
+         <widget class="QLabel" name="label_14">
+          <property name="geometry">
+           <rect>
+            <x>1060</x>
+            <y>30</y>
+            <width>221</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+background-color: None;
+	color: rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Cantidad de fuerzas W:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+         <widget class="QSpinBox" name="sp_nFuer_W">
+          <property name="geometry">
+           <rect>
+            <x>1250</x>
+            <y>30</y>
+            <width>68</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+QSpinBox{
+
+/* Color de fondo*/
+background-color: rgb(255, 255, 255); 
+
+/* borde*/
+border-radius : 5px;
+border : 2px solid  rgb(240, 240, 240);
+
+/* Color de letras*/
+	color: rgb(1, 1, 1);
+
+	font: 10pt &quot;Times New Roman&quot;;
+}
+
+
+QComboBox:hover{
+
+
+border : 2px solid rgb(254, 251, 216);
+
+}
+
+</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="pagina_2">
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>10</y>
+           <width>1341</width>
+           <height>261</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QGroupBox{
+/*Borde*/
+border: 2px solid rgb(255, 255, 255);
+border-radius: 5px;
+
+	/*Letra*/
+	font: 15pt &quot;Impact&quot;;
+	color: rgb(106, 106, 106);
+}</string>
+         </property>
+         <property name="title">
+          <string>Datos por Elemento</string>
+         </property>
+         <widget class="QLabel" name="label_9">
+          <property name="geometry">
+           <rect>
+            <x>590</x>
+            <y>110</y>
+            <width>121</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+background-color: None;
+	color: rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;Elemento:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="cb_elemento">
+          <property name="geometry">
+           <rect>
+            <x>610</x>
+            <y>150</y>
+            <width>69</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>377</width>
+            <height>1000</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Times New Roman</family>
+            <pointsize>14</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+QComboBox{
+
+/* Color de fondo*/
+background-color: rgb(97, 134, 133); 
+
+/* borde*/
+border-radius : 5px;
+border : 2px solid  rgb(240, 240, 240);
+
+/* Color de letras*/
+	color: rgb(255, 255, 255);
+
+	font: 14pt &quot;Times New Roman&quot;;
+}
+
+
+QComboBox:hover{
+
+
+border : 2px solid rgb(0, 255, 255);
+
+}
+
+</string>
+          </property>
+          <property name="editable">
+           <bool>false</bool>
+          </property>
+          <property name="currentText">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_10">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>30</y>
+            <width>341</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+background-color: None;
+	color: rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Matriz de Rigidez Local de elemento:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+         <widget class="QTableWidget" name="tbl_MKGE">
+          <property name="geometry">
+           <rect>
+            <x>820</x>
+            <y>70</y>
+            <width>481</width>
+            <height>181</height>
+           </rect>
+          </property>
+          <property name="cursor" stdset="0">
+           <cursorShape>ArrowCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QTableWidget{
+
+background-color: rgb(255, 255, 255);
+}
+
+QHeaderView{
+
+background-color: rgb(255, 255, 255);
+
+font: 75 10pt &quot;Times New Roman&quot;;
+}
+</string>
+          </property>
+          <property name="showGrid">
+           <bool>true</bool>
+          </property>
+          <property name="gridStyle">
+           <enum>Qt::SolidLine</enum>
+          </property>
+          <property name="sortingEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="rowCount">
+           <number>0</number>
+          </property>
+          <attribute name="horizontalHeaderCascadingSectionResizes">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="horizontalHeaderMinimumSectionSize">
+           <number>42</number>
+          </attribute>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>77</number>
+          </attribute>
+          <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderCascadingSectionResizes">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderStretchLastSection">
+           <bool>false</bool>
+          </attribute>
+          <column>
+           <property name="text">
+            <string>1</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>2</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>3</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>4</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>5</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>6</string>
+           </property>
+          </column>
+         </widget>
+         <widget class="QLabel" name="label_11">
+          <property name="geometry">
+           <rect>
+            <x>870</x>
+            <y>40</y>
+            <width>361</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+background-color: None;
+	color: rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Matriz de Rigidez Global de elemento:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+         <widget class="QTableWidget" name="tbl_propiedades">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>10</y>
+            <width>411</width>
+            <height>51</height>
+           </rect>
+          </property>
+          <property name="cursor" stdset="0">
+           <cursorShape>ArrowCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QTableWidget{
+background-color: rgb(255, 255, 255);
+}
+QHeaderView::section{
+font: 75 12pt &quot;Times New Roman&quot;;
+}
+</string>
+          </property>
+          <property name="showGrid">
+           <bool>true</bool>
+          </property>
+          <property name="gridStyle">
+           <enum>Qt::SolidLine</enum>
+          </property>
+          <property name="sortingEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="rowCount">
+           <number>0</number>
+          </property>
+          <attribute name="horizontalHeaderCascadingSectionResizes">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="horizontalHeaderMinimumSectionSize">
+           <number>42</number>
+          </attribute>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>81</number>
+          </attribute>
+          <attribute name="horizontalHeaderHighlightSections">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderCascadingSectionResizes">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderStretchLastSection">
+           <bool>false</bool>
+          </attribute>
+          <column>
+           <property name="text">
+            <string>L</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>A</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Mod E</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Iz</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Angulo</string>
+           </property>
+          </column>
+         </widget>
+         <widget class="QTableWidget" name="tbl_MKL">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>70</y>
+            <width>481</width>
+            <height>181</height>
+           </rect>
+          </property>
+          <property name="cursor" stdset="0">
+           <cursorShape>ArrowCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QTableWidget{
+
+background-color: rgb(255, 255, 255);
+}
+
+QHeaderView{
+
+background-color: rgb(255, 255, 255);
+
+font: 75 10pt &quot;Times New Roman&quot;;
+}
+</string>
+          </property>
+          <property name="showGrid">
+           <bool>true</bool>
+          </property>
+          <property name="gridStyle">
+           <enum>Qt::SolidLine</enum>
+          </property>
+          <property name="sortingEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="rowCount">
+           <number>0</number>
+          </property>
+          <attribute name="horizontalHeaderCascadingSectionResizes">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="horizontalHeaderMinimumSectionSize">
+           <number>42</number>
+          </attribute>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>77</number>
+          </attribute>
+          <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderCascadingSectionResizes">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderStretchLastSection">
+           <bool>false</bool>
+          </attribute>
+          <column>
+           <property name="text">
+            <string>1</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>2</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>3</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>4</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>5</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>6</string>
+           </property>
+          </column>
+         </widget>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_4">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>280</y>
+           <width>1341</width>
+           <height>351</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QGroupBox{
+/*Borde*/
+border: 2px solid rgb(255, 255, 255);
+border-radius: 5px;
+
+	/*Letra*/
+	font: 15pt &quot;Impact&quot;;
+	color: rgb(106, 106, 106);
+}</string>
+         </property>
+         <property name="title">
+          <string>Datos de la Estructura</string>
+         </property>
+         <widget class="QTableWidget" name="tbl_MKG">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>50</y>
+            <width>531</width>
+            <height>291</height>
+           </rect>
+          </property>
+          <property name="cursor" stdset="0">
+           <cursorShape>ArrowCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QTableWidget{
+background-color: rgb(255, 255, 255);
+}
+QHeaderView::section{
+font: 75 12pt &quot;Times New Roman&quot;;
+}
+</string>
+          </property>
+          <property name="showGrid">
+           <bool>true</bool>
+          </property>
+          <property name="gridStyle">
+           <enum>Qt::SolidLine</enum>
+          </property>
+          <property name="sortingEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="rowCount">
+           <number>0</number>
+          </property>
+          <attribute name="horizontalHeaderCascadingSectionResizes">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="horizontalHeaderMinimumSectionSize">
+           <number>42</number>
+          </attribute>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>77</number>
+          </attribute>
+          <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderCascadingSectionResizes">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderStretchLastSection">
+           <bool>false</bool>
+          </attribute>
+         </widget>
+         <widget class="QLabel" name="label_12">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>30</y>
+            <width>221</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+background-color: None;
+	color: rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Matriz de Rigidez Global:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+         <widget class="MatplotlibWidgetaLienzo" name="wgt_GDL" native="true">
+          <property name="geometry">
+           <rect>
+            <x>730</x>
+            <y>0</y>
+            <width>591</width>
+            <height>341</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(97, 134, 133);
+border: 2px solid rgb(97, 134, 133);
+border-radius: 5px;</string>
+          </property>
+         </widget>
+         <widget class="QTableWidget" name="tbl_vec_F">
+          <property name="geometry">
+           <rect>
+            <x>600</x>
+            <y>50</y>
+            <width>111</width>
+            <height>291</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QTableWidget{
+background-color: rgb(255, 255, 255);
+}
+QHeaderView::section{
+font: 75 12pt &quot;Times New Roman&quot;;
+}
+</string>
+          </property>
+          <column>
+           <property name="text">
+            <string>F</string>
+           </property>
+          </column>
+         </widget>
+         <widget class="QLabel" name="label_2">
+          <property name="geometry">
+           <rect>
+            <x>550</x>
+            <y>200</y>
+            <width>41</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;{F}=&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_16">
+          <property name="geometry">
+           <rect>
+            <x>600</x>
+            <y>30</y>
+            <width>131</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{
+background-color: None;
+	color: rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Vector Fuerza:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="pagina_3">
+        <widget class="QGroupBox" name="groupBox_3">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>10</y>
+           <width>581</width>
+           <height>511</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QGroupBox{
+/*Borde*/
+border: 2px solid rgb(255, 255, 255);
+border-radius: 5px;
+
+	/*Letra*/
+	font: 15pt &quot;Impact&quot;;
+	color: rgb(106, 106, 106);
+}</string>
+         </property>
+         <property name="title">
+          <string>Grados De Libertad con Desplazamiento--Elemento</string>
+         </property>
+         <widget class="QFrame" name="frame_3">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>30</y>
+            <width>261</width>
+            <height>471</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(213, 244, 230);
+/*border: 2px solid rgb(97, 134, 133);*/
+border-radius: 5px;</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QTableWidget" name="tbl_g_delta">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>10</y>
+             <width>233</width>
+             <height>441</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QTableWidget{
+background-color: rgb(255, 255, 255);
+}
+QHeaderView::section{
+font: 75 12pt &quot;Times New Roman&quot;;
+}
+</string>
+           </property>
+           <column>
+            <property name="text">
+             <string>        Grados          </string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>          Δ o  θ      </string>
+            </property>
+           </column>
+          </widget>
+         </widget>
+         <widget class="QFrame" name="frame_4">
+          <property name="geometry">
+           <rect>
+            <x>280</x>
+            <y>30</y>
+            <width>291</width>
+            <height>471</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(213, 244, 230);
+/*border: 2px solid rgb(97, 134, 133);*/
+border-radius: 5px;</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QTableWidget" name="tbl_g_delta_elem">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>20</y>
+             <width>251</width>
+             <height>241</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QTableWidget{
+background-color: rgb(255, 255, 255);
+}
+QHeaderView::section{
+font: 75 12pt &quot;Times New Roman&quot;;
+}
+</string>
+           </property>
+           <attribute name="horizontalHeaderDefaultSectionSize">
+            <number>110</number>
+           </attribute>
+           <column>
+            <property name="text">
+             <string>             Grados Elem        </string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>          Δ o  θ      </string>
+            </property>
+           </column>
+          </widget>
+          <widget class="QWidget" name="layoutWidget_2">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>300</y>
+             <width>241</width>
+             <height>151</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <item>
+             <widget class="QLabel" name="label">
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Elementos&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSlider" name="slider_Elem">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(213, 244, 230);
+border: 2px solid rgb(97, 134, 133);
+border-radius: 5px;</string>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="n_Elem">
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;0&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_5">
+         <property name="geometry">
+          <rect>
+           <x>590</x>
+           <y>10</y>
+           <width>751</width>
+           <height>511</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QGroupBox{
+/*Borde*/
+border: 2px solid rgb(255, 255, 255);
+border-radius: 5px;
+
+	/*Letra*/
+	font: 15pt &quot;Impact&quot;;
+	color: rgb(106, 106, 106);
+}</string>
+         </property>
+         <property name="title">
+          <string>Fuerzas Internas en Nodos</string>
+         </property>
+         <widget class="MatplotlibWidgetaLienzo" name="wgt_FIE" native="true">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>70</y>
+            <width>665</width>
+            <height>377</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(97, 134, 133);
+border: 2px solid rgb(97, 134, 133);
+border-radius: 5px;</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="pagina_4">
+        <widget class="QGroupBox" name="groupBox_6">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>10</y>
+           <width>1041</width>
+           <height>601</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QGroupBox{
+/*Borde*/
+border: 2px solid rgb(255, 255, 255);
+border-radius: 5px;
+
+	/*Letra*/
+	font: 15pt &quot;Impact&quot;;
+	color: rgb(106, 106, 106);
+}</string>
+         </property>
+         <property name="title">
+          <string>Deformada de la estructura</string>
+         </property>
+         <widget class="QLabel" name="label_15">
+          <property name="geometry">
+           <rect>
+            <x>70</x>
+            <y>200</y>
+            <width>101</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Zoom&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+         <widget class="QFrame" name="frame_2">
+          <property name="geometry">
+           <rect>
+            <x>9</x>
+            <y>29</y>
+            <width>261</width>
+            <height>561</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(213, 244, 230);
+/*border: 2px solid rgb(97, 134, 133);*/
+border-radius: 5px;</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLabel" name="label_3">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>520</y>
+             <width>81</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Zoom:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+          <widget class="QSlider" name="slider_zoom_defor">
+           <property name="geometry">
+            <rect>
+             <x>110</x>
+             <y>530</y>
+             <width>131</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(213, 244, 230);
+border: 2px solid rgb(97, 134, 133);
+border-radius: 5px;</string>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QFrame" name="frame_5">
+          <property name="geometry">
+           <rect>
+            <x>290</x>
+            <y>30</y>
+            <width>731</width>
+            <height>561</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(213, 244, 230);
+border: 2px solid rgb(97, 134, 133);
+border-radius: 5px;</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="MatplotlibWidgetaLienzo" name="wgt_deformada" native="true">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>30</y>
+             <width>681</width>
+             <height>511</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(97, 134, 133);
+border: 2px solid rgb(97, 134, 133);
+border-radius: 5px;</string>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1339</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionNuevo"/>
+    <addaction name="actionAbrir"/>
+    <addaction name="actionGuardar"/>
+    <addaction name="separator"/>
+    <addaction name="actionSalir"/>
+   </widget>
+   <widget class="QMenu" name="menuAcerca_de">
+    <property name="title">
+     <string>Acerca de</string>
+    </property>
+    <addaction name="actionInformacion"/>
+   </widget>
+   <widget class="QMenu" name="menuVista">
+    <property name="title">
+     <string>Vista</string>
+    </property>
+    <addaction name="actionTema_claro"/>
+    <addaction name="actionTema_oscuro"/>
+   </widget>
+   <widget class="QMenu" name="menuHerramientas">
+    <property name="title">
+     <string>Herramientas</string>
+    </property>
+    <addaction name="actionConversor_de_unidades"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuVista"/>
+   <addaction name="menuHerramientas"/>
+   <addaction name="menuAcerca_de"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNuevo">
+   <property name="text">
+    <string>Nuevo</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionAbrir">
+   <property name="text">
+    <string>Abrir</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionGuardar">
+   <property name="text">
+    <string>Guardar</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+G</string>
+   </property>
+  </action>
+  <action name="actionSalir">
+   <property name="text">
+    <string>Salir</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionInformacion">
+   <property name="text">
+    <string>Informacion</string>
+   </property>
+  </action>
+  <action name="actionTema_claro">
+   <property name="text">
+    <string>Tema claro</string>
+   </property>
+  </action>
+  <action name="actionTema_oscuro">
+   <property name="text">
+    <string>Tema oscuro</string>
+   </property>
+  </action>
+  <action name="actionConversor_de_unidades">
+   <property name="text">
+    <string>Conversor de unidades</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MatplotlibWidgetaLienzo</class>
+   <extends>QWidget</extends>
+   <header>UI_Matplotlib_PyQt5</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
